@@ -1,6 +1,10 @@
 
 # 007 Django 4 Custom 404 Error Page
 
+### O que é uma Página de Erro 404 Personalizada?
+
+Uma página de erro 404 personalizada melhora a experiência do usuário ao fornecer uma mensagem clara e útil quando uma página não é encontrada. No Django, você pode criar uma página de erro 404 personalizada simplesmente adicionando um arquivo `404.html` no diretório de templates e ajustando as configurações para servir esta página.
+
 ## COMO RODAR ESSE PROJETO EM SEU COMPUTADOR:
 
 ### Requisitos
@@ -49,12 +53,7 @@
     pip install django==4.2.15
     ```
 
-5. **Execute as migrações do banco de dados**:
-    ```bash
-    python manage.py migrate
-    ```
-
-6. **Configurar uma Página de Erro 404 Personalizada**:
+5. **Configurar uma Página de Erro 404 Personalizada**:
 
     - Crie um arquivo chamado `404.html` dentro da pasta de templates do seu aplicativo Django.
     - Adicione o seguinte conteúdo ao arquivo `404.html`:
@@ -81,7 +80,7 @@
     ALLOWED_HOSTS = ['*']  # Ajuste conforme necessário
     ```
 
-7. **Execute o servidor de desenvolvimento**:
+6. **Execute o servidor de desenvolvimento**:
     ```bash
     python manage.py runserver
     ```
@@ -91,9 +90,6 @@
 - Acesse uma URL inexistente no seu navegador, por exemplo: [http://127.0.0.1:8000/nao-existe](http://127.0.0.1:8000/nao-existe)
 - Você verá a página de erro 404 personalizada que você configurou.
 
-### O que é uma Página de Erro 404 Personalizada?
-
-Uma página de erro 404 personalizada melhora a experiência do usuário ao fornecer uma mensagem clara e útil quando uma página não é encontrada. No Django, você pode criar uma página de erro 404 personalizada simplesmente adicionando um arquivo `404.html` no diretório de templates e ajustando as configurações para servir esta página.
 
 ### Estrutura de Diretórios do Projeto
 
