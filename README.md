@@ -101,8 +101,12 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 │   ├── settings.py      # Configurações do projeto (incluindo ALLOWED_HOSTS e DEBUG)
 │   ├── urls.py          # Mapeamento de requisições HTTP e redirecionamento para os templates HTML
 │   └── wsgi.py          # Configurações para o servidor WSGI (usado para servir a aplicação)
-├── templates/
-│   └── 404.html         # Página de erro 404 personalizada
+├── myapp/
+│   ├── __init__.py      # Marca o diretório como um pacote Python
+│   ├── apps.py          # Configurações do app
+│   ├── views.py         # Funções de view para o app
+│   └── templates/
+│       └── 404.html     # Página de erro 404 personalizada
 └── manage.py            # CLI do Django, um script de linha de comando para tarefas administrativas do Django
 ```
 
