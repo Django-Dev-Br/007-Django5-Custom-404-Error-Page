@@ -24,7 +24,6 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 1. **Clone o repositório**:
     ```bash
     git clone https://github.com/Django-Dev-Br/007-Django-4-Custom-404-Error-Page.git
-    cd 007-Django-4-Custom-404-Error-Page
     ```
 
 2. **Crie um ambiente virtual**:
