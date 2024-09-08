@@ -18,21 +18,8 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
    Confira o vídeo para saber como trabalhar com múltiplas versões do Python e com venv (ambiente virtual):
   [![Watch the video](https://img.youtube.com/vi/eetDeQrv0Rs/0.jpg)](https://youtu.be/eetDeQrv0Rs)
 
-- **Virtualenv**
 
-  Para instalar o pacote `virtualenv` no Python, utilize os seguintes comandos:
-
-  - **Linux**:
-    ```bash
-    python3 -m pip install virtualenv
-    ```
-
-  - **Windows**:
-    ```bash
-    python -m pip install virtualenv
-    ```
-
-### Passos para Executar
+### 7 passos simples para executar
 
 1. **Clone o repositório**:
     ```bash
