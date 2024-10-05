@@ -10,6 +10,7 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 ### Requisitos
 
 - **Python 3.12 com PIP e venv**
+- **o Django 5 requer Python 3.10 ou superior.**
 
 - **No [repositório 001](https://github.com/Django-Dev-Br/001-django4-basic-project) há explicações sobre PIP e venv**
   
@@ -23,7 +24,7 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 
 1. **Clone o repositório**:
     ```bash
-    git clone https://github.com/Django-Dev-Br/007-Django-4-Custom-404-Error-Page.git
+    git clone https://github.com/Django-Dev-Br/007-Django5-Custom-404-Error-Page.git
     ```
 
 2. **Crie um ambiente virtual**:
@@ -56,7 +57,7 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 
 5. **Acesse a pasta do repositório**:
     ```bash
-    cd 007-Django-4-Custom-404-Error-Page
+    cd 007-Django5-Custom-404-Error-Page
     ```
     
 6. **Configurar uma Página de Erro 404 Personalizada**:
@@ -83,8 +84,8 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 
     ```python
     # settings.py
-    DEBUG = False
-    ALLOWED_HOSTS = ['*']  
+    DEBUG = False # mostra a página de erro ao invés da página de DEBUG
+    ALLOWED_HOSTS = ['*']  # Obs: Essa configuração é apenas para o ambiente local de desenvolvimento.
     ```
 
 7. **Execute o servidor de desenvolvimento**:
