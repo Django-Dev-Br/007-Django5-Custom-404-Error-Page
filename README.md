@@ -49,8 +49,13 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
     ```bash
     source myvenv/bin/activate  
     ```
-
-4. **Instale o Django**:
+    
+4. **Acesse a pasta do repositório**:
+    ```bash
+    cd 007-Django5-Custom-404-Error-Page
+    ```
+    
+5. **Instale o Django**:
 
    Fazer a instalação após a ativação da virtual env fará com que a instalação seja feita nessa pasta ao invés do computador. Isso significa que o pacote Django não estará disponivel para todos os usuários do computador, mas apenas para o contexto no qual essa venv esteja ativada. Veremos sua ativação logo abaixo.
 
@@ -72,11 +77,6 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
     ```
     O arquivo requirements.txt é um arquivo de texto que contém uma lista de pacotes a ser instalado em uma venv. É uma boa prática de programação do ecossistema Python.
 
-
-5. **Acesse a pasta do repositório**:
-    ```bash
-    cd 007-Django5-Custom-404-Error-Page
-    ```
     
 6. **Configurar uma Página de Erro 404 Personalizada**:
 
