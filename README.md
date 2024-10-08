@@ -120,7 +120,7 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 ### Estrutura de Diretórios do Projeto
 
 ```
-007-django4-custom-404-error-page/
+007-django5-custom-404-error-page/
 ├── myproject/
 │   ├── __init__.py      # Marca o diretório como um pacote Python
 │   ├── asgi.py          # Configurações para o servidor ASGI (usado para aplicações assíncronas)
@@ -134,6 +134,7 @@ Uma página de erro 404 personalizada melhora a experiência do usuário ao forn
 │   └── templates/
 │       └── 404.html     # Página de erro 404 personalizada
 └── manage.py            # CLI do Django, um script de linha de comando para tarefas administrativas do Django
+└── requirements.txt    # Lista de pacotes Python necessários para o projeto
 ```
 
 ### Sobre Nosso Treinamento Prático-Profissional com projeto real para iniciantes e avançados em web DevOps Full-stack com Python, Django, Bootstrap e Linux.
